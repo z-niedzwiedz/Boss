@@ -1,0 +1,2 @@
+Pusty "szwendaczek" do skopiowania do \SM\INSTAL. Gdy istnieje to programm zapisuje do tego pliku część zmian w bazie wprowadzanych przez użytkowników.
+Oglądanie rezultatów: Magazyn -> kartoteka produktów -> F11.
