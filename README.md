@@ -1,4 +1,5 @@
-# Boss
+# Boss ![Zrzut ekranu](https://raw.githubusercontent.com/z-niedzwiedz/Boss/master/boss.gif)
+
 ## Dodatki do systemu SM-Boss/WinBoss
 
 System zintegrowany SM-Boss powstał w firmie Samba (następnie Bossa/GPS Polska/Bossplus) z Gdyni na początku lat 90-tych i po dziś dzień jest rozwijany.
