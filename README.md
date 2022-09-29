@@ -1,4 +1,4 @@
-# Boss ![Zrzut ekranu](https://raw.githubusercontent.com/z-niedzwiedz/Boss/master/boss.gif)
+# ![Zrzut ekranu](https://raw.githubusercontent.com/z-niedzwiedz/Boss/master/boss.gif)
 
 ## Dodatki do systemu SM-Boss/WinBoss
 
