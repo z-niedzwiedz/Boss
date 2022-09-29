@@ -1,0 +1,592 @@
+
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 1
+========================================================================================
+|          PARAMETRY TWORZENIA PACZKI PK           |        "WIG" Sp¢ˆka z o.o.        |
+|               ALGORYTM "KONIEC02"                |                                   |
+|                                                  |                                   |
+----------------------------------------------------------------------------------------
+
+Zbi¢r wej˜ciowy            \SM\ARCH\FK\200101\KSO.DBF                                    
+
+Czy tylko nowe pozycje?    Nie                                                           
+
+Zbi¢r wyj˜ciowy:           \SM\FK\NASTEPNA\PACZKA.DBF                                    
+
+Kompensacja?               Tak                                                           
+
+
+      Numer kolejny:   10                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->bown+DA->wn01+DA->wn02+DA->wn03+DA->wn04+DA->wn05+DA->wn06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 2
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   20                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->bown+DA->wn01+DA->wn02+DA->wn03+DA->wn04+DA->wn05+DA->wn06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 3
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   30                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->boma+DA->ma01+DA->ma02+DA->ma03+DA->ma04+DA->ma05+DA->ma06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 4
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   40                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->boma+DA->ma01+DA->ma02+DA->ma03+DA->ma04+DA->ma05+DA->ma06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 5
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   50                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->wn07+DA->wn08+DA->wn09+DA->wn10+DA->wn11+DA->wn12+DA->wn13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 6
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   60                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->wn07+DA->wn08+DA->wn09+DA->wn10+DA->wn11+DA->wn12+DA->wn13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 7
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   70                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->ma07+DA->ma08+DA->ma09+DA->ma10+DA->ma11+DA->ma12+DA->ma13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 8
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   80                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='4'.or.DA->konto='5'                                     
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->ma07+DA->ma08+DA->ma09+DA->ma10+DA->ma11+DA->ma12+DA->ma13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12               GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 9
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:   90                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->bown+DA->wn01+DA->wn02+DA->wn03+DA->wn04+DA->wn05+DA->wn06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 10
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  100                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->bown+DA->wn01+DA->wn02+DA->wn03+DA->wn04+DA->wn05+DA->wn06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 11
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  110                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->boma+DA->ma01+DA->ma02+DA->ma03+DA->ma04+DA->ma05+DA->ma06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 12
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  120                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->boma+DA->ma01+DA->ma02+DA->ma03+DA->ma04+DA->ma05+DA->ma06)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 13
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  130                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->wn07+DA->wn08+DA->wn09+DA->wn10+DA->wn11+DA->wn12+DA->wn13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 14
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  140                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     -(DA->wn07+DA->wn08+DA->wn09+DA->wn10+DA->wn11+DA->wn12+DA->wn13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 15
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  150                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'W'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     DA->konto                                                          
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->ma07+DA->ma08+DA->ma09+DA->ma10+DA->ma11+DA->ma12+DA->ma13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+DATA 02.06.12              GENERATOR POLECEã KSI¨GOWANIA wers. 6.0               Str. 16
+----------------------------------------------------------------------------------------
+
+
+      Numer kolejny:  160                                                               
+
+             Poziom: 1                                                                  
+
+     Niedopuszczalne dekrety z zerow¥ warto˜ci¥                                         
+
+            Warunek:                                                                    
+                     DA->konto='7'                                                      
+             Strona:                                                                    
+                     'M'                                                                
+          Nr dowodu:                                                                    
+                     'PK200113'                                                         
+        Ident.rozr.:                                                                    
+                     DA->konto                                                          
+              Konto:                                                                    
+                     '860'                                                              
+            Konto 4:                                                                    
+                                                                                        
+        Data ksi©g.:                                                                    
+                     #DATA_OST                                                          
+          Data dow.:                                                                    
+                     #DATA_OST                                                          
+         Data oper.:                                                                    
+                     #DATA_OST                                                          
+           Dziennik:                                                                    
+                     'DZ'                                                               
+            Warto˜†:                                                                    
+                     +(DA->ma07+DA->ma08+DA->ma09+DA->ma10+DA->ma11+DA->ma12+DA->ma13)  
+              Tre˜†:                                                                    
+                     'Przeksi©gowanie roczne'                                           
+        Nazwa konta:                                                                    
+                                                                                        
+----------------------------------------------------------------------------------------
+
+KONIEC RAPORTU   dnia 02.06.12

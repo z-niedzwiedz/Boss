@@ -1,0 +1,1 @@
+kpr_alg.arj - Spakowane wydruki z moich algorytmów do KPIR. Zawiera cztery algorytmy: dla zakupu, sprzedaży, płac i ZUSu. Ten ostatni należy generować z datą poprzedniego miesiąca.
